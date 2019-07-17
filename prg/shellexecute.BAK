@@ -1,0 +1,10 @@
+DECLARE INTEGER ShellExecute ;
+IN SHELL32.DLL ;
+INTEGER nWinHandle,; 
+STRING cOperation,; 
+STRING cFileName,; 
+STRING cParameters,; 
+STRING cDirectory,; 
+INTEGER nShowWindow
+
+Shellexecute(0,"Open","img\html\标志－辅助标志.htm","","",0)
